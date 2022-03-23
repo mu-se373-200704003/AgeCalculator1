@@ -12,9 +12,9 @@ import java.text.SimpleDateFormat
 
 class MainActivity : AppCompatActivity() {
 
-    var button_date: Button? = null
-    var textview_date: TextView? = null
-    var cal = Calendar.getInstance()
+    private var button_date: Button? = null
+    private var textview_date: TextView? = null
+    private var cal = Calendar.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateDateInView() {
-        val myFormat = "MM/dd/yyyy" // mention the format you need
+        val myFormat = "dd/MM/yyyy"
         val sdf = SimpleDateFormat(myFormat, Locale.US)
         textview_date!!.text = sdf.format(cal.getTime())
     }
