@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AgeCalculator</string>
+    <string name="calculate_your">Calculate Your</string>
+    <string name="age">Age</string>
+    <string name="in_years_months_days_hours">In Years, Months, Days, Hours</string>
+    <string name="date_picker">DATE PICKER</string>
+    <string name="_23_03_2022">23.03.2022</string>
+</resources>
